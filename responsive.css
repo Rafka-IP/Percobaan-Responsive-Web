@@ -1,0 +1,65 @@
+@media (min-width:780px){
+  header{
+    padding: 0 10%;
+  }
+  .landing-page{
+    background: url(lgg.jpg);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .landing-page .item1{
+    height: 23px;
+  }
+  .landing-page .item1 p{
+    font-size: 17px;
+  }
+  .landing-page .item2{
+    height: 65px;
+  }
+  .landing-page .item2 p{
+    font-size: 50px;
+  }
+  .landing-page .item3{
+    height: 150px;
+    width: 70%;
+  }
+  .landing-page .item3 p{
+    font-size: 22px;
+  }
+  .landing-page .item4{
+    width: 18%;
+    height: 50px;
+  }
+  .landing-page .item4 p{
+    font-size: 13.5px;
+  }
+  .landing-page .item4 .social-media{
+    margin-top: 7.5px;
+  }
+  .landing-page .item4 .social-media a{
+    margin-right: 3px;
+  }
+  .landing-page .item4 .social-media a i{
+    font-size: 30px;
+  }
+  .service{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .service-title{
+    width: 100%;
+  }
+  .service-box{
+   width: 21vw;
+   height: 28vh;
+   margin-right: 2vw;
+   margin-left: 2vw;
+  }
+}
